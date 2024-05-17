@@ -43,9 +43,9 @@ const BezierCurveEditor: React.FC<Props> = ({ points, setPoints }: Props) => {
       //change points according to window size
       setPoints([
         { x: (window.innerWidth / 4) * 3, y: 100 },
-        { x: window.innerWidth / 8, y: 100 },
+        { x: window.innerWidth / 2.5, y: 100 },
         {
-          x: (window.innerWidth / 4) * 3,
+          x: (window.innerWidth / 4) * 2,
           y: (window.innerHeight / 4) * 2,
         },
         { x: window.innerWidth / 8, y: window.innerHeight / 2 },

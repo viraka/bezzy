@@ -10,7 +10,7 @@ const BezierCssViewer = ({ points }: Props) => {
 
   const normalizePoint = (point: Point, maxPoint: Point) => {
     return {
-      x: point.x / maxPoint.x,
+      x: point.x / maxPoint.y,
       y: point.y / maxPoint.y,
     };
   };
