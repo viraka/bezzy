@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./BezierCssViewer.module.css";
 
 type Props = {
@@ -6,10 +5,8 @@ type Props = {
 };
 
 const BezierCssViewer = ({ points }: Props) => {
-  const p0 = points[0];
   const p1 = points[1];
   const p2 = points[2];
-  const p3 = points[3];
 
   const normalizePoint = (point: Point, maxPoint: Point) => {
     return {

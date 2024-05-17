@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Stage, Layer, Line, Circle } from "react-konva";
-import styles from "./BezierCurveEditor.module.css";
+// import styles from "./BezierCurveEditor.module.css";
 
 type Props = {
   points: Point[];
